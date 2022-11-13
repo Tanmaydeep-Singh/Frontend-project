@@ -96,7 +96,7 @@ function App() {
             <Card1 order="Delevered Order" id="373" />
           </div>
 
-          <div className="grid w-11/12 h-auto md:h-4/6 m-auto grid-cols-1 md:gap-5 md:grid-cols-4  ">
+          <div className="m-auto mt-16  grid w-11/12 h-auto md:h-4/6 xl:m-auto grid-cols-1 md:gap-5 md:grid-cols-4  ">
             <div className=" col-span-3 h-auto bg-white rounded-lg">
               <div>
                 <Navbar2 />
@@ -110,7 +110,7 @@ function App() {
               </div>
             </div>
 
-            <div className=" col-span-1 h-auto md:h-11/12 bg-white rounded-lg">
+            <div className=" shadow-lg col-span-1 h-auto md:h-11/12 bg-white rounded-lg">
               <Chart />
             </div>
           </div>
