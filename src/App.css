@@ -1,0 +1,29 @@
+.bpo {
+  height: 100vh;
+  background: linear-gradient(180deg, #3AB0FF 40%, #F9F2ED 40%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F9F2ED;
+  
+  border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba( 255, 255, 255, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+}
