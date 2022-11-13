@@ -21,52 +21,52 @@ function Sidebar(props) {
       >
         <div></div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center">
+        <div className="flex  mx-2  text-xl my-0 text-center">
           <MdLocalLaundryService size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h1>Laundry</h1> : null}
         </div>
 
-        <div className="flex  mx-4 rounded-md  shadow-xl px-2 text-xl bg-blue-500 my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2 rounded-md  shadow-xl  text-xl bg-blue-500 my-0 text-center align-middle content-center items-center">
           <AiFillHome size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Dashboard</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <BsFillTagFill size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Pos</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <AiFillGift size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Order</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <AiOutlineMenuUnfold size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Order Status Screen</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <AiFillBook size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Expense</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <BsFillPersonFill size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Services</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <ImStatsBars size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Reports</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <BsNutFill size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Tools</h3> : null}
         </div>
 
-        <div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+        <div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
           <BiLogOut size={30} color={'#59C1BD'} className=" mx-5" />
           {props.display ? <h3>Logout</h3> : null}
         </div>
@@ -82,52 +82,52 @@ function Sidebar(props) {
         }
       >
 
-<div className="flex  ml-4  text-xl my-0 text-center">
+<div className="flex  mx-2  text-xl my-0 text-center">
   <MdLocalLaundryService size={30} color={'#59C1BD'} className=" mx-5" />
    <h1>Laundry</h1> 
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <AiFillHome size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Dashboard</h3> 
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <BsFillTagFill size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Pos</h3>
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <AiFillGift size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Order</h3>
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <AiOutlineMenuUnfold size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Order Status Screen</h3>
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <AiFillBook size={30} color={'#59C1BD'} className=" mx-5" />
   <h3>Expense</h3> 
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <BsFillPersonFill size={30} color={'#59C1BD'} className=" mx-5" />
   <h3>Services</h3>
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <ImStatsBars size={30} color={'#59C1BD'} className=" mx-5" />
   <h3>Reports</h3>
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <BsNutFill size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Tools</h3> 
 </div>
 
-<div className="flex  ml-4  text-xl my-0 text-center align-middle content-center items-center">
+<div className="flex  mx-2  text-xl my-0 text-center align-middle content-center items-center">
   <BiLogOut size={30} color={'#59C1BD'} className=" mx-5" />
    <h3>Logout</h3> 
 </div>

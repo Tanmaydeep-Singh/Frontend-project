@@ -4,6 +4,7 @@ import Chart from "./components/Chart";
 import Sidebar from "./components/Sidebar";
 // import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
+import Footer from "./components/Footer";
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlinePlusCircle, AiFillTag } from "react-icons/ai";
@@ -113,6 +114,8 @@ function App() {
               <Chart />
             </div>
           </div>
+          <Footer/>
+
         </div>
       </div>
     </div>
